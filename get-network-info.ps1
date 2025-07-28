@@ -42,4 +42,4 @@ Get-NetRoute | Where-Object { $_.NextHop -ne '::' } | Format-Table DestinationPr
 Write-Host "`n[+] Active TCP Connections" -ForegroundColor Yellow
 Get-NetTCPConnection | Where-Object { $_.State -eq "Established" } | Format-Table LocalAddress, LocalPort, RemoteAddress, RemotePort, State -AutoSize
 
-Write-Host "`n[OK] Done." -ForegroundColor Green
+Write-Host "`n[+] Done." -ForegroundColor Green
