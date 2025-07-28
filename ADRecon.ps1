@@ -1,5 +1,5 @@
 # ===============================
-# ADRecon-Red.ps1
+# ADRecon.ps1
 # Red Team Oriented AD Enumeration Tool
 # ===============================
 
